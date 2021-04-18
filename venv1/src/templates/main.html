@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loe Shoping Mall</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <style>
+        .logosort{
+            width: 600px;
+        }
+
+        .logosort:hover{
+            transform: scale(1.05); transition-duration: 1s; transition-timing-function: ease-in;
+            transition-delay: 5ms;
+        }
+        .sidelogo{
+            position: fixed ; width: 150px; top: 250px; left: 5%;
+        }
+
+        .sidelogo2{
+            position: fixed ; width: 150px; top: 250px; right: 5%;
+        }
+
+        /*
+
+        .sidelogo:hover{
+            position: fixed ;
+            animation-name: sidehov ; animation-duration: 1s; animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+            
+        }
+
+        .sidelogo2:hover{
+            position: fixed ;
+            animation-name: sidehov2 ; animation-duration: 1s; animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+            
+        }
+
+        @keyframes sidehov
+        {
+            from{position: fixed ; width: 150px; top: 200px; left: 5%}
+            to{position: fixed ; width: 150px; top: 150px; left: 5%}
+        }
+
+        @keyframes sidehov2
+        {
+            from{position: fixed ; width: 150px; top: 200px; right: 5%}
+            to{position: fixed ; width: 150px; top: 150px; right: 5%}
+        }
+        */
+
+
+        .catesort{
+            width: 60%; position: absolute; top: 320px; left: 20%;
+        }
+
+        .catetype{
+            font-size: 30px; width: 22%; padding: 10px; font-family: 'Source Sans Pro', sans-serif;
+            margin: 20px auto;
+        }
+        .catetype:hover{text-decoration: none; border-bottom: 1px solid rgba(0, 0, 0, 0.800);
+        padding-bottom: 5px; transition-delay: 1ms; font-size: 32px ; transition-duration: 5ms;
+        }
+
+        .listpic{
+            width: 60%; height: 1000px; position: absolute; top: 450px; left: 20%;  
+            background-color: rgba(0, 0, 0, 0.05); border-radius: 2px;
+        }
+        
+        a{text-decoration: none ; color: rgba(0, 0, 0, 0.9);}       
+    </style>
+    
+</head>
+<body>
+    <!-- middle sort-->
+    <div style="width: 100%;">
+
+    
+        <!-- top logo -->
+        
+        <div style="text-align: center;"><a href ="Main.html">
+            <img src="top logo.png", class="logosort">
+        </a></div>
+
+        
+        <!-- side logo -->
+        <div>
+            <img src = "side logo.png" class="sidelogo">
+        </div>
+
+        <div>
+            <img src = "side logo.png" class="sidelogo2">
+        </div>
+        
+        <!-- category -->
+        <div class="catesort">
+            <!-- typing -->
+            <div style="text-align: center; width: 100%;">
+                <div class="catetype" style="float: left;"><a href ="#">Shop</a></div>
+                <div class="catetype" style="float: left;"><a href ="#">Look</a></div>
+                <div class="catetype" style="float: left;"><a href ="#">Book</a></div>
+                <div class="catetype" style="float: left;"><a href ="#">About</a></div>
+            </div>
+        </div>
+
+        <!-- bottom (list of item) -->
+        
+        <div class="listpic">
+            <div></div>
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
